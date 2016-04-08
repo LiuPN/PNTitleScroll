@@ -9,6 +9,7 @@
 #import "PNTitleScrollView.h"
 #import "UIView+HMExtension.h"
 #import "PNTitleLabel.h"
+#import "PNTitleScrollTools.h"
 
 @interface PNTitleScrollView ()
 // 字体的纯宽度

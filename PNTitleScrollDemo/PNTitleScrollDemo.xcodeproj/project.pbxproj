@@ -61,7 +61,6 @@
 		DE1CAFBB1CB7457B006A4A23 /* PNTitleScrollTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNTitleScrollTools.m; sourceTree = "<group>"; };
 		DE1CAFBD1CB7457B006A4A23 /* PNContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNContentScrollView.h; sourceTree = "<group>"; };
 		DE1CAFBE1CB7457B006A4A23 /* PNContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNContentScrollView.m; sourceTree = "<group>"; };
-		DE1CAFBF1CB7457B006A4A23 /* PNSettings.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNSettings.pch; sourceTree = "<group>"; };
 		DE1CAFC01CB7457B006A4A23 /* PNTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNTitleLabel.h; sourceTree = "<group>"; };
 		DE1CAFC11CB7457B006A4A23 /* PNTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNTitleLabel.m; sourceTree = "<group>"; };
 		DE1CAFC21CB7457B006A4A23 /* PNTitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNTitleScrollView.h; sourceTree = "<group>"; };
@@ -177,7 +176,6 @@
 			children = (
 				DE1CAFBD1CB7457B006A4A23 /* PNContentScrollView.h */,
 				DE1CAFBE1CB7457B006A4A23 /* PNContentScrollView.m */,
-				DE1CAFBF1CB7457B006A4A23 /* PNSettings.pch */,
 				DE1CAFC01CB7457B006A4A23 /* PNTitleLabel.h */,
 				DE1CAFC11CB7457B006A4A23 /* PNTitleLabel.m */,
 				DE1CAFC21CB7457B006A4A23 /* PNTitleScrollView.h */,
@@ -470,7 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PNTitleScrollDemo/PNTitleScroll/source/PNSettings.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = PNTitleScrollDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -484,7 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PNTitleScrollDemo/PNTitleScroll/source/PNSettings.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = PNTitleScrollDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

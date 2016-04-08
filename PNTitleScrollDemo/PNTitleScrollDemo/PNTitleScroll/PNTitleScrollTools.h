@@ -6,6 +6,25 @@
 //  Copyright © 2016年 liupanniu. All rights reserved.
 //
 
+
+/// 默认title文字的大小
+#define PNDEFAULT_TITLE_MAXFONT [UIFont systemFontOfSize:17.0]
+
+// 标题之间的间隙
+#define PNMargin 0
+
+
+/// 屏幕的宽高
+#define PNScreenWidth [UIScreen mainScreen].bounds.size.width
+#define PNScreenHeight [UIScreen mainScreen].bounds.size.height
+
+/// 标题文字变大或者变小 以及下划线的移动时间
+#define PNTitleChangeTime 0.3
+
+
+
+
+
 #import <Foundation/Foundation.h>
 #import "PNContentScrollView.h"
 #import "PNTitleScrollView.h"
