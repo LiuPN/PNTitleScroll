@@ -1,0 +1,32 @@
+//
+//  PNSettings.pch
+//  111111
+//
+//  Created by lpn on 16/4/5.
+//  Copyright © 2016年 liupanniu. All rights reserved.
+//
+
+#ifndef PNSettings_pch
+#define PNSettings_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+/// 默认title文字的大小
+#define PNDEFAULT_TITLE_MAXFONT [UIFont systemFontOfSize:17.0]
+
+// 标题之间的间隙
+#define PNMargin 0
+
+
+/// 屏幕的宽高
+#define PNScreenWidth [UIScreen mainScreen].bounds.size.width
+#define PNScreenHeight [UIScreen mainScreen].bounds.size.height
+
+/// 标题文字变大或者变小 以及下划线的移动时间
+#define PNTitleChangeTime 0.3 
+
+
+
+#endif /* PNSettings_pch */
